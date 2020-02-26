@@ -1,0 +1,11 @@
+/* pages/film/film.wxss */
+.film{
+  width: 750rpx;
+}
+.film_header{
+  border-bottom:1rpx solid #e6e6e6;
+  line-height: 44rpx;
+}
+.current{
+  color: #e54847;
+}

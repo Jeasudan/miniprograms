@@ -1,0 +1,13 @@
+<!--pages/film/film.wxml-->
+<view class="film">
+  <view class="film_header">
+    <view wx:for='{{tabList}}' 
+          wx:key="{{index}}">
+      <text class="{{showIndex === index ? 'current':''}}"
+            bindtap='changeIndex' data-index="{{index}}">
+        {{item.title}}
+      </text>
+    </view>
+  </view>
+</view>
+
