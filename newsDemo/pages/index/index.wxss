@@ -1,0 +1,13 @@
+/* 轮播图 */
+swiper{
+  height: 420rpx;
+  width: 100%;
+}
+swiper-item{
+  height: 100%;
+  width: 100%;
+}
+image{
+  width: 100%;
+}
+/* 新闻列表在全局 */
